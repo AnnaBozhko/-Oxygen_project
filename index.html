@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <div class="header_box">
+        <div class="logo">
+            <img src="img/Logo.png" alt="logo">
+            <img src="img/Logoname.png" alt="logo">
+        </div>
+          <input type="checkbox" id="menu-checkbox">
+            <nav role="navigation">
+                    <div>
+                        <img src="img/phone-square.png" height="20px" weight="20px"> 80300 5000
+                    </div>
+                    <label for="menu-checkbox" class="toggle-button" data-open="Menu" data-close="Close" onclick></label>
+                <ul class="main-menu">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">Услуги<img src="img/arrow-down.png"></a></li>
+                    <li><a href="#">Клиники и кабинеты</a></li>
+                    <li><a href="#">О нас</a></li>
+                    <li><a href="#">Статьи</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Контакты</a></li>
+                </ul>
+            </nav>
+    </div>
+</header>
+<main>
+<section class="top-slide">
+    <div><p>Всю необходимую информацию о том, как и в каком центре</p>
+        <p>сделать МРТ, КТ и рентген исследованиях, сравнить интересующие</p>
+        <p>Вас клиники цены на диагностику и порядок прохождения</p>
+        <p>процедур, а так же записаться на исследование можно по</p>
+        <p>телефону 8 (812) 385-77-56</p><br><br>
+            <p style="font-size: 18px; font-weight: bold">Оставьте свой номер а мы<br>Вам перезвоним</p><br><br>
+        <form>
+        <p><input type="phone" name="phone" placeholder="+380">
+        <button type="reset">Отправить</button></p>
+        </form>
+    </div>
+</section>
+    <div class="card_box">
+        <div class="card">
+            <div class="topcard">
+                <img class="topcard1" src="img/Ellipse.png">
+                <img class="topcard2" src="img/Vector_Smart_Object1.png">
+            </div>
+            <div class="bottom_card">
+                <h3>Best Treatment</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que laudantium.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="topcard">
+                <img src="img/Ellipse.png">
+                <img src="img/Vector_Smart_Object2.png">
+            </div>
+            <div class="bottom_card">
+                <h3>Emergency Help</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que laudantium.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="topcard">
+                <img src="img/Ellipse.png">
+                <img src="img/Vector_Smart_Object3.png">
+            </div>
+            <div class="bottom_card">
+                <h3>Medical Staff</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que laudantium.</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="topcard">
+                <img src="img/Ellipse.png">
+                <img src="img/Vector_Smart_Object4.png">
+            </div>
+            <div class="bottom_card">
+                <h3>Qualified Doctors</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que laudantium.</p>
+            </div>
+        </div>
+    </div>
+    </section>
+</main>
+
+<div class="fabs">
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1">МРТ</label>
+
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab1">КТ</label>
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab1">РЕНТГЕН ИССЛЕДОВАНИЯ</label>
+
+    <section id="content-tab1">
+
+    </section>
+    <section id="content-tab2">
+
+    </section>
+    <section id="content-tab3">
+
+    </section>
+</div>
+
+<script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
