@@ -1,124 +1,405 @@
 <!doctype html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/css?family=Calibri:400,700,400italic,700italic" rel="stylesheet">-->
+    <link href="./Fonts/Calibri.ttf" rel="stylesheet">
+    <link href="./Fonts/Calibri.woff" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
+<div id="wraper">
+<header class="heder">
     <div class="header_box">
         <div class="logo">
             <img src="img/Logo.png" alt="logo">
             <img src="img/Logoname.png" alt="logo">
         </div>
-          <input type="checkbox" id="menu-checkbox">
-            <nav role="navigation">
-                    <div>
-                        <img src="img/phone-square.png" height="20px" weight="20px"> 80300 5000
-                    </div>
-                    <label for="menu-checkbox" class="toggle-button" data-open="Menu" data-close="Close" onclick></label>
-                <ul class="main-menu">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Услуги<img src="img/arrow-down.png"></a></li>
-                    <li><a href="#">Клиники и кабинеты</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Статьи</a></li>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Контакты</a></li>
-                </ul>
-            </nav>
+        <input type="checkbox" id="menu-checkbox">
+        <nav role="navigation">
+            <div>
+                <img src="img/phone-square.png" height="20px" weight="20px"> 80300 5000
+            </div>
+            <label for="menu-checkbox" class="toggle-button" data-open="Menu" data-close="Close" onclick></label>
+            <ul class="main-menu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Услуги<img src="img/arrow-down.png"></a></li>
+                <li><a href="#">Клиники и кабинеты</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Статьи</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
     </div>
 </header>
 <main>
-<section class="top-slide">
-    <div><p>Всю необходимую информацию о том, как и в каком центре</p>
-        <p>сделать МРТ, КТ и рентген исследованиях, сравнить интересующие</p>
-        <p>Вас клиники цены на диагностику и порядок прохождения</p>
-        <p>процедур, а так же записаться на исследование можно по</p>
-        <p>телефону 8 (812) 385-77-56</p><br><br>
-            <p style="font-size: 18px; font-weight: bold">Оставьте свой номер а мы<br>Вам перезвоним</p><br><br>
-        <form>
-        <p><input type="phone" name="phone" placeholder="+380">
-        <button type="reset">Отправить</button></p>
-        </form>
-    </div>
-</section>
-    <div class="card_box">
-        <div class="card">
-            <div class="topcard">
-                <img class="topcard1" src="img/Ellipse.png">
-                <img class="topcard2" src="img/Vector_Smart_Object1.png">
-            </div>
-            <div class="bottom_card">
-                <h3>Best Treatment</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que laudantium.</p>
-            </div>
+    <section class="top-slide">
+        <img class="banner1" src="img/Banner_1.png">
+        <div class="top-slide-decription"><p>Всю необходимую информацию о том, как и в каком центре<br>сделать МРТ, КТ и рентген исследованиях,
+            сравнить интересующие<br>Вас клиники цены на диагностику и порядок прохождения<br>процедур, а так же
+            записаться на исследование можно по<br>телефону 8 (812) 385-77-56</p><br><br>
+            <p>Оставьте свой номер а мы<br>Вам перезвоним</p>
+            <form>
+                <input type="phone" name="phone" placeholder="+380">
+                <button type="reset">Отправить</button>
+            </form>
         </div>
-        <div class="card">
-            <div class="topcard">
-                <img src="img/Ellipse.png">
-                <img src="img/Vector_Smart_Object2.png">
-            </div>
-            <div class="bottom_card">
-                <h3>Emergency Help</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que laudantium.</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="topcard">
-                <img src="img/Ellipse.png">
-                <img src="img/Vector_Smart_Object3.png">
-            </div>
-            <div class="bottom_card">
-                <h3>Medical Staff</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que laudantium.</p>
-            </div>
-        </div>
-        <div class="card">
-            <div class="topcard">
-                <img src="img/Ellipse.png">
-                <img src="img/Vector_Smart_Object4.png">
-            </div>
-            <div class="bottom_card">
-                <h3>Qualified Doctors</h3>
-                <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que laudantium.</p>
-            </div>
-        </div>
-    </div>
     </section>
+    <section>
+        <div class="card_box">
+            <div class="card1">
+                <div class="topcard">
+                    <img src="img/Ellipse.png">
+                    <img src="img/Vector_Smart_Object1.png">
+                </div>
+                <div class="bottom_card">
+                    <h3>Best Treatment</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que
+                        laudantium.</p>
+                </div>
+            </div>
+            <div class="card2">
+                <div class="topcard">
+                    <img src="img/Ellipse.png">
+                    <img src="img/Vector_Smart_Object2.png">
+                </div>
+                <div class="bottom_card">
+                    <h3>Emergency Help</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que
+                        laudantium.</p>
+                </div>
+            </div>
+            <div class="card3">
+                <div class="topcard">
+                    <img src="img/Ellipse.png">
+                    <img src="img/Vector_Smart_Object3.png">
+                </div>
+                <div class="bottom_card">
+                    <h3>Medical Staff</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que
+                        laudantium.</p>
+                </div>
+            </div>
+            <div class="card4">
+                <div class="topcard">
+                    <img src="img/Ellipse.png">
+                    <img src="img/Vector_Smart_Object4.png">
+                </div>
+                <div class="bottom_card">
+                    <h3>Qualified Doctors</h3>
+                    <p>Sed ut perspiciatis unde omnis iste natus<br>error sit voluptatem accusantium dolorem-<br>que
+                        laudantium.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="tabs">
+
+        <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#panel1">МРТ</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#panel2">КТ</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#panel3">РЕНТГЕН ИССЛЕДОВАНИЯ</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="panel1" class="tab-pane fade show active">
+                <div class="tabs_card">
+                    <div class="tabs_card_top">
+                        <img src="img/Logo2.png">
+                        <div class="tabs_card_top_right"><h4>Название клиники</h4>
+                            <p>Ленинский проспект, д. 160, Ленинский проспект</p>
+                        </div>
+                    </div>
+                    <article>
+                        Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                        дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                        как контент впоследствии будет выглядеть на готовой странице, чтобы
+                        увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                    </article>
+                    <div class="tabs_card_button">
+                        <p>Наш номер: +3856 099 66 65</p>
+                        <div class="tabs_card_button_right">
+                            <button class="button">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs_card">
+                    <div class="tabs_card_top">
+                        <img src="img/Logo2.png">
+                        <div class="tabs_card_top_right"><h4>Название клиники</h4>
+                            <p>Ленинский проспект, д. 160, Ленинский проспект</p>
+                        </div>
+                    </div>
+                    <article>
+                        Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                        дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                        как контент впоследствии будет выглядеть на готовой странице, чтобы
+                        увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                    </article>
+                    <div class="tabs_card_button">
+                        <p>Наш номер: +3856 099 66 65</p>
+                        <div class="tabs_card_button_right">
+                            <button class="button">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs_card">
+                    <div class="tabs_card_top">
+                        <img src="img/Logo2.png">
+                        <div class="tabs_card_top_right"><h4>Название клиники</h4>
+                            <p>Ленинский проспект, д. 160, Ленинский проспект</p>
+                        </div>
+                    </div>
+                    <article>
+                        Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                        дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                        как контент впоследствии будет выглядеть на готовой странице, чтобы
+                        увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                    </article>
+                    <div class="tabs_card_button">
+                        <p>Наш номер: +3856 099 66 65</p>
+                        <div class="tabs_card_button_right">
+                            <button class="button">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs_card">
+                    <div class="tabs_card_top">
+                        <img src="img/Logo2.png">
+                        <div class="tabs_card_top_right"><h4>Название клиники</h4>
+                            <p>Ленинский проспект, д. 160, Ленинский проспект</p>
+                        </div>
+                    </div>
+                    <article>
+                        Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                        дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                        как контент впоследствии будет выглядеть на готовой странице, чтобы
+                        увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                    </article>
+                    <div class="tabs_card_button">
+                        <p>Наш номер: +3856 099 66 65</p>
+                        <div class="tabs_card_button_right">
+                            <button class="button">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs_card">
+                    <div class="tabs_card_top">
+                        <img src="img/Logo2.png">
+                        <div class="tabs_card_top_right"><h4>Название клиники</h4>
+                            <p>Ленинский проспект, д. 160, Ленинский проспект</p>
+                        </div>
+                    </div>
+                    <article>
+                        Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                        дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                        как контент впоследствии будет выглядеть на готовой странице, чтобы
+                        увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                    </article>
+                    <div class="tabs_card_button">
+                        <p>Наш номер: +3856 099 66 65</p>
+                        <div class="tabs_card_button_right">
+                            <button class="button">Заказать звонок</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs_card">
+                    <div class="tabs_card_top">
+                        <img src="img/Logo2.png">
+                            <div class="tabs_card_top_right"><h4>Название клиники</h4>
+                                <p>Ленинский проспект, д. 160, Ленинский проспект</p>
+                            </div>
+                    </div>
+                    <article>
+                        Что такое текст «рыба» знают все, кто работает с версткой журналов,
+                        дизайном и разработкой сайтов. Этот текст служит для демонстрации того,
+                        как контент впоследствии будет выглядеть на готовой странице, чтобы
+                        увидеть, правильно ли размещаются абзацы, отступы, хорошо ли...
+                    </article>
+                    <div class="tabs_card_button">
+                        <p>Наш номер: +3856 099 66 65</p>
+                            <div class="tabs_card_button_right">
+                        <button class="button">Заказать звонок</button>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <div id="panel2" class="tab-pane fade">
+
+                <p>Содержимое 2 панели...</p>
+            </div>
+            <div id="panel3" class="tab-pane fade">
+                <h3>Панель 3</h3>
+            </div>
+        </div>
+    </div>
+
+
 </main>
 
-<div class="fabs">
-    <input id="tab1" type="radio" name="tabs" checked>
-    <label for="tab1">МРТ</label>
+    <!-- Footer -->
+    <footer class="page-footer font-small blue-grey lighten-5">
 
-    <input id="tab2" type="radio" name="tabs">
-    <label for="tab1">КТ</label>
+        <div style="background-color: #43b1d2;">
+            <div class="container">
 
-    <input id="tab3" type="radio" name="tabs">
-    <label for="tab1">РЕНТГЕН ИССЛЕДОВАНИЯ</label>
+                <div class="row py-4 d-flex align-items-center">
 
-    <section id="content-tab1">
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <img src="img/Logo.png" class="img-fluid"
+                             alt="">
+                        <h6 class="mb-0">Единый<br></h6>
+                        <h6 class="mb-0">Центр Записи</h6>
+                    </div>
+                    <div>
+                        <p>Заказать звонок: </p>
+                        <form>
+                            <input type="phone" name="phone" placeholder="+380">
+                            <button type="reset">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </section>
-    <section id="content-tab2">
 
-    </section>
-    <section id="content-tab3">
+        <div class="container text-center text-md-left mt-5">
 
-    </section>
-</div>
+            <div class="row mt-3 dark-grey-text">
 
+                <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Get in Touch</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <i class="fas fa-envelope mr-3"></i> info@example.com<br>
+                        <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                    <p>
+                        <i class="fas fa-phone mr-3"></i> + 01 234 567 88<br>
+                        <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+                    <p>
+                        <i class="fas fa-home mr-3"></i>123, Main Road, New City,<br>
+                        <i class="fas fa-home mr-3"></i>My Country 123456</p>
+
+                </div>
+
+
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Quick Links</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a class="dark-grey-text" href="#!">About us</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Blog</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Contact us</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Faq</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Insurance</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Contact us</a>
+                    </p>
+                </div>
+
+
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Our Services</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p>
+                        <a class="dark-grey-text" href="#!">Work Injuries</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Sport Injuries</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Cold Laser Therapy</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Massage Therapy</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Physiotherapy</a>
+                    </p>
+                    <p>
+                        <a class="dark-grey-text" href="#!">Chiropratic Therapy</a>
+                    </p>
+                </div>
+
+
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                    <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                    <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <div class="md-form mb-1">
+                        <input type="text" id="name" placeholder="Your name" name="name" class="form-control">
+                    </div>
+                    <div class="md-form mb-0">
+                        <input type="text" id="phone" placeholder="Phone" name="phone" class="form-control">
+                    </div>
+                    <div class="md-form">
+                        <textarea type="text" id="message" placeholder="Message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-info btn-rounded">Submit</button>
+                </div>
+            </div>
+
+
+            <div class="row py-6 d-flex align-items-left">
+                <div class="col-md-6 col-lg-15 text-left text-md-left">
+                    <a class="fb-ic">
+                        <i class="fab fa-facebook-f gray-text mr-4"> </i>
+                    </a>
+                    <a class="gplus-ic">
+                        <i class="fab fa-google-plus-g gray-text mr-4"> </i>
+                    </a>
+                    <a class="vk-ic">
+                        <i class="fab fa-vk gray-text mr-4"> </i>
+                    </a>
+                    <a class="youtube-ic">
+                        <i class="fab fa-youtube gray-text mr-4"> </i>
+                    </a>
+                    <a class="li-ic">
+                        <i class="fab fa-linkedin-in gray-text mr-4"> </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div style="background-color: #43b1d2;">
+            <div class="footer-copyright text-center text-white py-3">Copyright © 2019
+            </div>
+        </div>
+    </footer>
 <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
 <script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
